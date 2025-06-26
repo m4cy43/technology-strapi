@@ -1,0 +1,48 @@
+{
+  "kind": "singleType",
+  "collectionName": "main_pages",
+  "info": {
+    "singularName": "main-page",
+    "pluralName": "main-pages",
+    "displayName": "Main Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "hero": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "aboutUs": {
+      "type": "component",
+      "component": "common.title-and-body",
+      "repeatable": false
+    },
+    "whatWeDo": {
+      "type": "component",
+      "component": "common.title-and-body",
+      "repeatable": true
+    },
+    "whyChooseUs": {
+      "type": "component",
+      "component": "common.title-and-body",
+      "repeatable": false
+    },
+    "closing": {
+      "type": "component",
+      "component": "common.title-and-body",
+      "repeatable": false
+    }
+  }
+}
