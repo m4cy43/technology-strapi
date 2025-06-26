@@ -3,15 +3,12 @@ import type { Schema, Struct } from '@strapi/strapi';
 export interface CommonTitleAndBody extends Struct.ComponentSchema {
   collectionName: 'components_common_title_and_bodies';
   info: {
-    displayName: 'Title and body';
+    displayName: 'title-body-image';
     icon: 'brush';
   };
   attributes: {
     body: Schema.Attribute.Blocks;
-    images: Schema.Attribute.Media<
-      'images' | 'files' | 'videos' | 'audios',
-      true
-    >;
+    images: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
     title: Schema.Attribute.String;
   };
 }

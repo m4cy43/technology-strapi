@@ -1,7 +1,7 @@
 {
   "collectionName": "components_common_title_and_bodies",
   "info": {
-    "displayName": "Title and body",
+    "displayName": "title-body-image",
     "icon": "brush"
   },
   "options": {},
@@ -14,7 +14,7 @@
     },
     "images": {
       "type": "media",
-      "multiple": true,
+      "multiple": false,
       "allowedTypes": [
         "images",
         "files",

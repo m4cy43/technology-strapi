@@ -14,6 +14,16 @@
     "title": {
       "type": "string"
     },
+    "hero": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
     "aboutUs": {
       "type": "component",
       "component": "common.title-and-body",
