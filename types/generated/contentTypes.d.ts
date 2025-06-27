@@ -587,8 +587,8 @@ export interface ApiMainPageMainPage extends Struct.SingleTypeSchema {
     draftAndPublish: true;
   };
   attributes: {
-    aboutUs: Schema.Attribute.Component<'common.title-and-body', false>;
-    closing: Schema.Attribute.Component<'common.title-and-body', false>;
+    aboutUs: Schema.Attribute.Component<'common.services', false>;
+    closing: Schema.Attribute.Component<'common.services', false>;
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
@@ -604,8 +604,8 @@ export interface ApiMainPageMainPage extends Struct.SingleTypeSchema {
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
-    whatWeDo: Schema.Attribute.Component<'common.title-and-body', true>;
-    whyChooseUs: Schema.Attribute.Component<'common.title-and-body', false>;
+    whatWeDo: Schema.Attribute.Component<'common.services', true>;
+    whyChooseUs: Schema.Attribute.Component<'common.services', true>;
   };
 }
 

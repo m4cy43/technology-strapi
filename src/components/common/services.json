@@ -1,7 +1,7 @@
 {
-  "collectionName": "components_common_title_and_bodies",
+  "collectionName": "components_common_services",
   "info": {
-    "displayName": "title-body-image",
+    "displayName": "services",
     "icon": "brush"
   },
   "options": {},
@@ -9,10 +9,10 @@
     "title": {
       "type": "string"
     },
-    "body": {
+    "content": {
       "type": "blocks"
     },
-    "images": {
+    "image": {
       "type": "media",
       "multiple": false,
       "allowedTypes": [
