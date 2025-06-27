@@ -26,22 +26,22 @@
     },
     "aboutUs": {
       "type": "component",
-      "component": "common.title-and-body",
+      "component": "common.services",
       "repeatable": false
     },
     "whatWeDo": {
       "type": "component",
-      "component": "common.title-and-body",
+      "component": "common.services",
       "repeatable": true
     },
     "whyChooseUs": {
       "type": "component",
-      "component": "common.title-and-body",
-      "repeatable": false
+      "component": "common.services",
+      "repeatable": true
     },
     "closing": {
       "type": "component",
-      "component": "common.title-and-body",
+      "component": "common.services",
       "repeatable": false
     }
   }

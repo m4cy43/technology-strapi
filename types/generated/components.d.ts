@@ -1,14 +1,14 @@
 import type { Schema, Struct } from '@strapi/strapi';
 
-export interface CommonTitleAndBody extends Struct.ComponentSchema {
-  collectionName: 'components_common_title_and_bodies';
+export interface CommonServices extends Struct.ComponentSchema {
+  collectionName: 'components_common_services';
   info: {
-    displayName: 'title-body-image';
+    displayName: 'services';
     icon: 'brush';
   };
   attributes: {
-    body: Schema.Attribute.Blocks;
-    images: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    content: Schema.Attribute.Blocks;
+    image: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
     title: Schema.Attribute.String;
   };
 }
@@ -78,7 +78,7 @@ export interface SharedSlider extends Struct.ComponentSchema {
 declare module '@strapi/strapi' {
   export module Public {
     export interface ComponentSchemas {
-      'common.title-and-body': CommonTitleAndBody;
+      'common.services': CommonServices;
       'shared.media': SharedMedia;
       'shared.quote': SharedQuote;
       'shared.rich-text': SharedRichText;
