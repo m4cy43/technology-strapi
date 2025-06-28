@@ -32,7 +32,7 @@
     "whyChooseUs": {
       "type": "component",
       "component": "common.services",
-      "repeatable": true
+      "repeatable": false
     },
     "closing": {
       "type": "component",

@@ -605,7 +605,7 @@ export interface ApiMainPageMainPage extends Struct.SingleTypeSchema {
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
     whatWeDo: Schema.Attribute.Component<'common.services', true>;
-    whyChooseUs: Schema.Attribute.Component<'common.services', true>;
+    whyChooseUs: Schema.Attribute.Component<'common.services', false>;
   };
 }
 
