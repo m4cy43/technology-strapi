@@ -49,6 +49,12 @@
     "phone2": {
       "type": "string"
     },
+    "address": {
+      "type": "string"
+    },
+    "addressLink": {
+      "type": "string"
+    },
     "telegram": {
       "type": "string"
     },
