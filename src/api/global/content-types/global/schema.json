@@ -16,6 +16,10 @@
       "type": "string",
       "required": true
     },
+    "siteDescription": {
+      "type": "text",
+      "required": true
+    },
     "favicon": {
       "type": "media",
       "multiple": false,
@@ -26,10 +30,6 @@
         "videos"
       ]
     },
-    "siteDescription": {
-      "type": "text",
-      "required": true
-    },
     "logo": {
       "type": "media",
       "multiple": false,
@@ -39,6 +39,24 @@
         "videos",
         "audios"
       ]
+    },
+    "email": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "phone2": {
+      "type": "string"
+    },
+    "telegram": {
+      "type": "string"
+    },
+    "instagram": {
+      "type": "string"
+    },
+    "facebook": {
+      "type": "string"
     },
     "defaultSeo": {
       "type": "component",
